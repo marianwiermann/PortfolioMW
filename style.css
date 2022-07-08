@@ -7,12 +7,12 @@ body {
 /*barra inicial*/
 
 .inicial ul {
-  color: rgb(42, 68, 48);
+  color: #213626;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding: 0 100px 0 0;
-  background: linear-gradient(#F6EEE3, #51835d)
+  background: #51835d
 }
 
 .inicial ul :hover {
@@ -22,4 +22,49 @@ body {
 .inicial li{
   list-style: none;
   padding: 24px;
+}
+
+/*márian wiermann*/
+
+main {
+  padding: 24px 96px;
+  color: #213626;
+  background: linear-gradient(#51835d, #F6EEE3)
+}
+
+section p {
+  margin: 12px 12px 12px 0;
+  background: red;
+}
+
+.mw-texto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mw-texto :first-child {
+  padding: 0 0 56px 0
+}
+
+.mw-texto :last-child {
+  padding: 56px 0 0 0
+}
+
+/*sobre*/
+
+.sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sobre img {
+  width: 120px;
+}
+
+/*contato*/
+.contato img {
+  width: 24px;
+  margin: 0 8px 0 0;
 }

@@ -1,18 +1,31 @@
-/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Scope One', serif;
+cor terrosa para botões #b96955 */
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(#51835d,#b3b2b2,#f3dfc3)
 }
 
 /*barra inicial*/
 
-.inicial ul {
+/*.inicial ul {
+  background: red;
   color: #213626;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding: 0 100px 0 0;
-  background: #51835d
+}*/
+
+.inicial ul {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-bottom:#3d5e45 1px solid;
+  background: linear-gradient(#51835d, #5d8a67)
 }
 
 .inicial ul :hover {
@@ -20,21 +33,45 @@ body {
 }
 
 .inicial li{
+  font-size: 18px;
+  color: #213626;
   list-style: none;
-  padding: 24px;
+  margin: 12px
 }
 
 /*márian wiermann*/
 
 main {
-  padding: 24px 96px;
+  padding: 96px 96px 24px 96px;
   color: #213626;
-  background: linear-gradient(#51835d, #F6EEE3)
+}
+
+section {
+  margin: 0 0 48px 0;
 }
 
 section p {
   margin: 12px 12px 12px 0;
-  background: red;
+}
+
+/*.mw {
+  height: 100vh;
+}*/
+
+h1 {
+  font-size: 40px;
+  font-family: 'Scope One', serif;
+}
+
+.mw-h2 {
+  font-size: 24px;
+  font-family: 'Scope One', serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .mw-texto{
@@ -54,9 +91,12 @@ section p {
 /*sobre*/
 
 .sobre {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+}
+
+.sobre-texto{
+}
+
+.sobre-imagem{
 }
 
 .sobre img {

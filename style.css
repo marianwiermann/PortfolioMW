@@ -32,22 +32,18 @@ body {
   text-shadow: 1px 1px #2a4430;
 }
 
-.inicial li{
+.inicial a{
   font-size: 18px;
   color: #213626;
-  list-style: none;
+  text-decoration: none;
   margin: 12px
 }
 
-/*márian wiermann*/
+/*MÁRIAN WIERMANN*/
 
 main {
   padding: 96px 96px 24px 96px;
   color: #213626;
-}
-
-section {
-  margin: 0 0 48px 0;
 }
 
 section p {
@@ -88,23 +84,36 @@ h2 {
   padding: 56px 0 0 0
 }
 
-/*sobre*/
+/*SOBRE*/
 
 .sobre {
-}
-
-.sobre-texto{
+  display: grid;
+  grid-template-columns: 50% auto;
 }
 
 .sobre-imagem{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .sobre img {
-  width: 120px;
+  width: 100%;
 }
 
-/*contato*/
+.sobre-imagem p {
+  position: relative;
+  top: 40px;
+}
+
+/*CONTATO*/
 .contato img {
   width: 24px;
-  margin: 0 8px 0 0;
+  margin-right: 8px;
 }
+

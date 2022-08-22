@@ -1,9 +1,25 @@
+<h1 align="center"> Márian Wiermann </h1>
+
 ## Descrição
 
-Projeto de portfólio pessoal realizado nas linguagens HTML5 e CSS3.
+Portfólio pessoal
+
+<!-- <p align="center"><img src="assets/gif.gif"></p> -->
+
+## Status
+
+Não Finalizado
+
+## Objetivo
+
+- `Desenvolver UI`
+- `Currilo personalizado`
+
+## Tecnologias utilizadas
+
+- `HTML5`
+- `CSS3`
 
 ## Link de demonstração
 
 > https://marianwiermann.github.io/PortfolioMW/
-
-#### Status: não finalizado

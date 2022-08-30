@@ -47,13 +47,9 @@ main {
   color: #213626;
 }
 
-section p {
+/* section p {
   margin: 12px 12px 12px 0;
-}
-
-/*.mw {
-  height: 100vh;
-}*/
+} */
 
 h1 {
   font-size: 40px;
@@ -65,10 +61,11 @@ h1 {
   font-family: 'Scope One', serif;
 }
 
-h2 {
+h3 {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
+  padding-top: 40px;
 }
 
 .mw-texto{
@@ -112,9 +109,48 @@ h2 {
   top: 40px;
 }
 
-/*CONTATO*/
+/* PROJETOS */
+
+.projetos {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;  
+}
+
+.projetos div {
+  color: #5d8a67;
+  background-color: #213626;
+
+  width: 180px;
+  height: 200px;
+  border-radius: 20px;
+
+  margin-right: 16px;
+  padding: 8px;
+  
+  display: flex;
+  flex-direction: column;
+
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #111b14;
+  border-radius: 20px;
+  padding: 5px;
+  width: 80px;
+
+  box-shadow: .5px .5px 0px .1px #5d8a67;
+}
+
+/* CONTATO */
 .contato img {
   width: 24px;
   margin-right: 8px;
 }
 
+.contato p {
+  margin: 6px 0px;
+}

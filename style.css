@@ -4,7 +4,8 @@ cor terrosa para botões #b96955 */
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(#51835d,#b3b2b2,#f3dfc3)
+  background: linear-gradient(#51835d,#b3b2b2,#f3dfc3);
+  font-size: 18px;
 }
 
 /* ----- MENU ----- */
@@ -38,10 +39,6 @@ main {
   color: #213626;
 }
 
-/* section p {
-  margin: 12px 12px 12px 0;
-} */
-
 h1 {
   font-size: 40px;
   font-family: 'Scope One', serif;
@@ -60,17 +57,17 @@ h3 {
 }
 
 .mw-texto{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 50%;
+  margin-top: 12px;
 }
 
 .mw-texto :first-child {
-  padding: 0 0 56px 0
+  margin: 0 0px 56px 0;
 }
 
 .mw-texto :last-child {
-  padding: 56px 0 0 0
+  margin: 56px 0 0 30px;
 }
 
 /* ----- SOBRE ----- */
@@ -78,32 +75,30 @@ h3 {
 .sobre {
   display: grid;
   grid-template-columns: 50% auto;
+  margin-top: 12px;
 }
 
 .sobre-imagem{
   font-size: 20px;
   font-weight: bolder;
   text-align: center;
-  width: 80%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
-.sobre img {
-  width: 100%;
+.sobre-imagem img {
+  width: 80%;
 }
 
 .sobre-imagem p {
   position: relative;
-  top: 40px;
+  top: 8%;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 /* ----- PROJETOS ----- */
 
 .projetos {
-  margin-top: 8px;
+  margin-top: 12px;
   display: flex;
   flex-direction: row;  
 }
@@ -117,11 +112,10 @@ h3 {
   border-radius: 20px;
 
   margin-right: 16px;
-  padding: 8px;
-  
+  padding: 12px;
+
   display: flex;
   flex-direction: column;
-
 }
 
 .tag {
@@ -130,15 +124,26 @@ h3 {
 
   background-color: #111b14;
   border-radius: 20px;
-  padding: 5px;
-  width: 80px;
-
   box-shadow: .5px .5px 0px .1px #5d8a67;
+  padding: 5px;
+  
+  width: 55%;
 }
 
 a {
   text-decoration: none;
 }
+
+.projetos-titulo{
+  border-bottom:#3d5e45 1px solid;
+  padding-bottom: 5px;
+}
+
+.lp, .advogado, .color{
+  display: flex;
+  gap: 10px;
+}
+
 
 /* ----- CONTATO ----- */
 .contato img {

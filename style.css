@@ -39,9 +39,39 @@ main {
   color: #213626;
 }
 
+.digitando {
+  display: inline-block;
+}
+
 h1 {
   font-size: 40px;
   font-family: 'Scope One', serif;
+
+  border-right: 1px solid orange;
+  animation: cursor 1.5s infinite, escrevendo 4s steps(11, end);
+  
+  white-space: nowrap;
+  overflow: hidden;
+
+  padding-right: 15px;
+}
+
+@keyframes cursor{
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes escrevendo {
+  from {
+  width: 0;
+  }
+  to {
+  width: 100%;
+  }
 }
 
 .mw-h2 {

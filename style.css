@@ -187,7 +187,7 @@ a {
 
 .contato img:hover {
   animation-name: flip;
-  animation-duration: 5s;
+  animation-duration: 2s;
 }
 
 @keyframes flip {

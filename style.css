@@ -176,11 +176,26 @@ a {
 
 
 /* ----- CONTATO ----- */
-.contato img {
+.contato p {
+  margin: 6px 0px;
+}
+
+.contato img{
   width: 24px;
   margin-right: 8px;
 }
 
-.contato p {
-  margin: 6px 0px;
+.contato img:hover {
+  animation-name: flip;
+  animation-duration: 5s;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg)
+  }
 }

@@ -13,7 +13,7 @@ Não Finalizado
 ## Objetivo
 
 - `Desenvolver UI`
-- `Currilo personalizado`
+- `Curriculo personalizado`
 
 ## Tecnologias utilizadas
 

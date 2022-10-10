@@ -84,6 +84,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 40px;
+  padding-bottom: 24px;
 }
 
 .mw-texto{
@@ -105,7 +106,6 @@ h3 {
 .sobre {
   display: grid;
   grid-template-columns: 50% auto;
-  margin-top: 12px;
 }
 
 .sobre-imagem{
@@ -125,12 +125,37 @@ h3 {
   padding-right: 60px;
 }
 
-/* ----- PROJETOS ----- */
+/* ----- SKILLS ----- */
+
+.skills-programas, .skills-ferramentas{
+  display: flex;
+  padding-bottom: 24px;
+  border-bottom:#3d5e45 1px solid;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.skills-programas img, .skills-ferramentas img{
+  width: 32px;
+  padding-right: 12px;
+}
+
+.skills-programas div, .skills-ferramentas div {
+  display: flex;
+  align-items: center;
+}
+
+.skills-ferramentas {
+  padding-top: 24px;
+}
+
+/* ----- GITHUB ----- */
 
 .projetos {
-  margin-top: 12px;
   display: flex;
   flex-direction: row;  
+  flex-wrap: wrap;
+
 }
 
 .projetos div {

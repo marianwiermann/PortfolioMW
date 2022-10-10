@@ -8,6 +8,11 @@ body {
   font-size: 18px;
 }
 
+main {
+  padding: 96px 96px 24px 96px;
+  color: #213626;
+}
+
 /* ----- MENU ----- */
 
 .inicial ul {
@@ -15,10 +20,10 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   border-bottom:#3d5e45 1px solid;
-  /* background: linear-gradient(#51835d, #5d8a67) */
-  
+  background: linear-gradient(#51835d, #5d8a67)
 }
 
 .inicial ul :hover {
@@ -26,17 +31,17 @@ body {
 }
 
 .inicial a{
-  font-size: 18px;
   color: #213626;
   text-decoration: none;
-  margin: 12px
+  margin: 24px
 }
 
 /* ----- MÁRIAN WIERMANN ----- */
 
-main {
-  padding: 96px 96px 24px 96px;
-  color: #213626;
+.box{
+  border:#3d5e45 1px solid;
+  border-radius: 15px;
+  padding: 24px;
 }
 
 .digitando {
@@ -86,21 +91,6 @@ h3 {
   padding-top: 40px;
   padding-bottom: 24px;
 }
-
-.mw-texto{
-  display: grid;
-  grid-template-columns: auto 50%;
-  margin-top: 12px;
-}
-
-.mw-texto :first-child {
-  margin: 0 0px 56px 0;
-}
-
-.mw-texto :last-child {
-  margin: 56px 0 0 30px;
-}
-
 /* ----- SOBRE ----- */
 
 .sobre {
@@ -108,21 +98,8 @@ h3 {
   grid-template-columns: 50% auto;
 }
 
-.sobre-imagem{
-  font-size: 20px;
-  font-weight: bolder;
-  text-align: center;
-}
-
 .sobre-imagem img {
   width: 80%;
-}
-
-.sobre-imagem p {
-  position: relative;
-  top: 8%;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 /* ----- SKILLS ----- */

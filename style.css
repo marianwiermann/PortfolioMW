@@ -129,52 +129,48 @@ h3 {
 /* ----- GITHUB ----- */
 
 .projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
   display: grid;
   grid-template-columns: 50% auto;
+}
+
+.projetos-titulo{
+  border-bottom:#3d5e45 1px solid;
+  font-size: 20px;
 }
 
 .projetos div {
   color: #5d8a67;
   background-color: #213626;
 
-  width: 90%;
   height: 200px;
   border-radius: 20px;
 
-  margin-bottom: 5%;
   padding: 12px;
 
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   gap: 10px;
-
 }
 
 .tag {
-  display: flex;
-  flex-direction: row;
-
   background-color: #111b14;
   border-radius: 20px;
   box-shadow: .5px .5px 0px .1px #5d8a67;
-  padding: 5px;
-  width: 100px;
+  padding: 10px;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
 }
 
-.projetos-titulo{
-  border-bottom:#3d5e45 1px solid;
-  padding-bottom: 5px;
-  font-size: 20px;
-}
-
-a:hover {
+/* a:hover {
   box-shadow: 1px 1px 0px 2px #5d8a67;
-}
+} */
 
 /* ----- CONTATO ----- */
 .contato p {

@@ -138,15 +138,16 @@ h3 {
 }
 
 .projetos-titulo{
-  border-bottom:#3d5e45 1px solid;
+  padding-bottom: 12px;
   font-size: 20px;
+  border-bottom:#3d5e45 1px solid;
+
 }
 
 .projetos div {
   color: #5d8a67;
   background-color: #213626;
 
-  height: 200px;
   border-radius: 20px;
 
   padding: 12px;
@@ -168,9 +169,10 @@ a {
   text-decoration: none;
 }
 
-/* a:hover {
-  box-shadow: 1px 1px 0px 2px #5d8a67;
-} */
+a:hover {
+  box-shadow: 2px 2px 0px .5px #e67ee0;
+  border-radius: 20px;
+}
 
 /* ----- CONTATO ----- */
 .contato p {

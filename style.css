@@ -13,6 +13,10 @@ main {
   color: #213626;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ----- MENU ----- */
 
 .inicial ul {
@@ -27,7 +31,7 @@ main {
 }
 
 .inicial ul :hover {
-  text-shadow: 1px 1px #2a4430;
+  text-shadow: 1px 1px #e67ee0;
 }
 
 .inicial a{
@@ -128,6 +132,24 @@ h3 {
 
 /* ----- GITHUB ----- */
 
+.projetos a {
+  text-decoration: none;
+  background-color: #213626;  
+  color: #5d8a67;
+  border-radius: 20px;
+  padding: 12px;
+  min-height: 150px;
+  max-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.projetos a:hover {
+  box-shadow: 2px 2px 0px .5px #e67ee0;
+  border-radius: 20px;
+}
+
 .projetos {
   display: flex;
   flex-wrap: wrap;
@@ -137,24 +159,15 @@ h3 {
   grid-template-columns: 50% auto;
 }
 
-.projetos-titulo{
+.projetos p:first-child{
   padding-bottom: 12px;
   font-size: 20px;
   border-bottom:#3d5e45 1px solid;
-
+  width: 100%;
 }
 
-.projetos div {
-  color: #5d8a67;
-  background-color: #213626;
-
-  border-radius: 20px;
-
-  padding: 12px;
-
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.projetos p:nth-child(2){
+  width: 100%;
 }
 
 .tag {
@@ -162,16 +175,8 @@ h3 {
   border-radius: 20px;
   box-shadow: .5px .5px 0px .1px #5d8a67;
   padding: 10px;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  box-shadow: 2px 2px 0px .5px #e67ee0;
-  border-radius: 20px;
+  height: 10px;
+  line-height: 50%;
 }
 
 /* ----- CONTATO ----- */

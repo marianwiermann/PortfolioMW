@@ -13,11 +13,12 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&family=Scope+One&display=swap"
       rel="stylesheet"
     />
+    <script src="main.js" defer></script>
   </head>
 
   <body>
     <header>
-      <nav class="inicial">
+      <nav class="inicial" id="menu">
         <ul>
           <a href="#sobre">Sobre</a>
           <a href="#skills">Skills</a>
@@ -28,31 +29,18 @@
     </header>
 
     <main>
-      <section class="box">
+      <!-- ----------- TITULO ANIMADO ----------- -->
+      <article class="box">
         <section class="mw">
           <div class="digitando">
-            <h1>Márian Wiermann</h1>
+            <h1>Márian Wiermann<a name="sobre"></a></h1>
           </div>
           <h2 class="mw-h2">Desenvolvedora Front End</h2>
-
-          <!-- <div class="mw-texto">
-          <p>
-            Formada em Arquitetura e Urbanismo, migrei para área da programação
-            aliando os meus conhecimentos de design e experiencia do usuário com
-            base em tecnológicas da rotina do usuário.
-          </p>
-
-          <p>
-            Do mundo da ergonimia e beleza encontradas na arquitetura e design
-            interiores hoje migro para o mundo na ergonimio e beleza encontradas
-            na tecnologia.
-          </p>
-        </div> -->
         </section>
 
-        <!-- ----------- SOBRE ----------- -->
+        <!-- -- TITULO ANIMADO / SOBRE -- -->
 
-        <h3>Sobre<a name="sobre"></a></h3>
+        <h3>Sobre</h3>
         <section class="sobre">
           <div class="sobre-texto">
             <p>
@@ -62,7 +50,7 @@
             </p>
           </div>
         </section>
-      </section>
+      </article>
 
       <!-- ----------- SKILLS ----------- -->
 
@@ -92,7 +80,7 @@
         </div>
         <div>
           <img src="IMAGENS/figma.png" />
-          <p>figma</p>
+          <p>Figma</p>
         </div>
       </section>
 
@@ -100,50 +88,40 @@
 
       <h3>GitHub<a name="github"></a></h3>
       <section class="projetos">
-        <div>
-          <a href="https://github.com/marianwiermann/LPHuddle" target="blank">
-            <p>LP Huddle</p>
-            <p>Projeto de layout realizado como exercicio de aprimoramento.</p>
-            <p class="tag">HTML5</p>
-            <p class="tag">CSS3</p>
-          </a>
-        </div>
+        <a href="https://github.com/marianwiermann/LPHuddle" target="blank">
+          <p>LP Huddle</p>
+          <p>Projeto de layout realizado como exercicio de aprimoramento.</p>
+          <p class="tag">HTML5</p>
+          <p class="tag">CSS3</p>
+        </a>
 
-        <div>
-          <a
-            href="https://github.com/marianwiermann/AdvogadoContato"
-            target="blank"
-          >
-            <p>Captura de contato</p>
-            <p>
-              Projeto de formulario realizado como exercicio de aprimoramento.
-            </p>
-            <p class="tag">HTML5</p>
-            <p class="tag">CSS3</p>
-          </a>
-        </div>
+        <a
+          href="https://github.com/marianwiermann/AdvogadoContato"
+          target="blank"
+        >
+          <p>Captura de contato</p>
+          <p>
+            Projeto de formulario realizado como exercicio de aprimoramento.
+          </p>
+          <p class="tag">HTML5</p>
+          <p class="tag">CSS3</p>
+        </a>
 
-        <div>
-          <a href="https://github.com/marianwiermann/PageColor" target="blank">
-            <p>Change your mood</p>
-            <p>
-              Personalize seu site de navegação conforme seu humor ou gosto.
-            </p>
-            <p class="tag">HTML5</p>
-            <p class="tag">CSS3</p>
-            <p class="tag">JavaScript</p>
-          </a>
-        </div>
+        <a href="https://github.com/marianwiermann/PageColor" target="blank">
+          <p>Change your mood</p>
+          <p>Personalize seu site de navegação conforme seu humor ou gosto.</p>
+          <p class="tag">HTML5</p>
+          <p class="tag">CSS3</p>
+          <p class="tag">JavaScript</p>
+        </a>
 
-        <div>
-          <a href="https://github.com/marianwiermann/Trallo" target="blank">
-            <p>Trallo</p>
-            <p>Reprodução simplificada de uma Nested List.</p>
-            <p class="tag">HTML5</p>
-            <p class="tag">CSS3</p>
-            <p class="tag">JavaScript</p>
-          </a>
-        </div>
+        <a href="https://github.com/marianwiermann/Trallo" target="blank">
+          <p>Trallo</p>
+          <p>Reprodução simplificada de uma Nested List.</p>
+          <p class="tag">HTML5</p>
+          <p class="tag">CSS3</p>
+          <p class="tag">JavaScript</p>
+        </a>
       </section>
 
       <!-- ----------- CONTATO ----------- -->

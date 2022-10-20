@@ -27,7 +27,9 @@ a {
   flex-wrap: wrap;
   justify-content: flex-end;
   border-bottom:#3d5e45 1px solid;
-  background: linear-gradient(#51835d, #5d8a67)
+  /* background: linear-gradient(#51835d, #5d8a67) */
+  background: linear-gradient(#51835d6b, #5d8a6763)
+
 }
 
 .inicial ul :hover {
@@ -36,7 +38,6 @@ a {
 
 .inicial a{
   color: #213626;
-  text-decoration: none;
   margin: 24px
 }
 
@@ -133,7 +134,6 @@ h3 {
 /* ----- GITHUB ----- */
 
 .projetos a {
-  text-decoration: none;
   background-color: #213626;  
   color: #5d8a67;
   border-radius: 20px;

@@ -13,12 +13,14 @@ Não Finalizado
 ## Objetivo
 
 - `Desenvolver UI`
+- `Aprimorar tecnologias`
 - `Curriculo personalizado`
 
 ## Tecnologias utilizadas
 
 - `HTML5`
 - `CSS3`
+- `JavaScript`
 
 ## Link de demonstração
 

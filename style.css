@@ -44,7 +44,7 @@ a {
 .box{
   border:#3d5e45 1px solid;
   border-radius: 15px;
-  padding: 24px;
+  padding: 36px 24px;
 }
 
 .digitando {

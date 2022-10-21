@@ -1,15 +1,23 @@
-// const menuItem = document.querySelectorAll('.inicial a')
+const menuItem = document.querySelectorAll('.inicial a')
 
-// menuItem.forEach(item => {
-//   item.addEventListener('click', scroolToIdOnClick)
-// })
+menuItem.forEach(item => {
+  item.addEventListener('click', scroolToIdOnClick)
+})
 
-// function scroolToIdOnClick(event) {
-//   const element = event.target
-//   const id = element.getAttribute('href')
-//   const to = document.querySelector(id).offsetTop
+function getScroolTopHref(element) {
+  const id = element.getAttribute('href')
+  return (to = document.querySelector(id).offsetTop)
+}
 
-//   console.log(id)
-// }
+function scroolToIdOnClick(event) {
+  event.preventDefault()
+  const to = getScroolTopHref(event.target) - 50
+  scroolToPosition(to)
+}
 
-window.scrollTo(0, document.getElementById('menu').offsetTop - 100)
+function scroolToPosition(to) {
+  window.scroll({
+    top: to,
+    behavior: 'smooth'
+  })
+}
